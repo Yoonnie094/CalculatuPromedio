@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Escoge la Asignatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/alertap"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Nota 1:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtn1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="1.1"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Ponderacion:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtp1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Nota 2:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtn2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="1.1"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Ponderacion:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtp2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Nota 3:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtn3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="1.1"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Ponderacion:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtp3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Nota 4:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtn4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="1.1"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Ponderacion:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtp4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:text="%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:text="Calcular"
+        android:id="@+id/btnc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calcula tu Promedio 2.0</string>
+    <string-array name="ramos">
+        <item>Seleccione Asignatura</item>
+        <item>Aplicaciones Moviles para IoT</item>
+        <item>Desarrollo de Videojuegos</item>
+        <item>Ingenieria de Software</item>
+        <item>Programacion Back End</item>
+    </string-array>
+</resources>
